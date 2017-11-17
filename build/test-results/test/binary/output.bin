@@ -1,0 +1,22 @@
+
+4FINDING CONCATENATED WORDS WITH TRIE IMPLEMENTATION
+
+
+
+Execution time is 533 ms
+
+%Used memory is 67.01212310791016 mb
+
+EThe first longest concatenated word is ethylenediaminetetraacetates
+
+EThe second longest concatenated word is electroencephalographically
+
+,The number of concatenated words is 124529
+
+7FINDING CONCATENATED WORDS WITH HASHSET IMPLEMENTATION
+
+Execution time is 486 ms
+&Used memory is 18.931243896484375 mb
+EThe first longest concatenated word is ethylenediaminetetraacetates
+EThe second longest concatenated word is electroencephalographically
+,The number of concatenated words is 124529

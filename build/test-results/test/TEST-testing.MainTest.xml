@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="testing.MainTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2017-11-17T16:25:03" hostname="DESKTOP-CO2J425" time="1.508">
+  <properties/>
+  <testcase name="trieImplementationTest" classname="testing.MainTest" time="0.782"/>
+  <testcase name="hashSetImplementationTest" classname="testing.MainTest" time="0.726"/>
+  <system-out><![CDATA[FINDING CONCATENATED WORDS WITH TRIE IMPLEMENTATION
+
+Execution time is 533 ms
+Used memory is 67.01212310791016 mb
+The first longest concatenated word is ethylenediaminetetraacetates
+The second longest concatenated word is electroencephalographically
+The number of concatenated words is 124529
+
+FINDING CONCATENATED WORDS WITH HASHSET IMPLEMENTATION
+
+Execution time is 486 ms
+Used memory is 18.931243896484375 mb
+The first longest concatenated word is ethylenediaminetetraacetates
+The second longest concatenated word is electroencephalographically
+The number of concatenated words is 124529
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
