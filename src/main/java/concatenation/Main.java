@@ -5,29 +5,9 @@ import java.io.*;
 public class Main {
 
     public static void main(String[] args) throws IOException {
-        trieImplementation();
         hashSetImplementation();
     }
 
-    /**
-     * Reading file, searching for concatenated words, measuring metrics
-     * for Trie implementation.
-     * @return
-     * @throws IOException
-     */
-    public static boolean trieImplementation() throws IOException {
-        System.out.println("FINDING CONCATENATED WORDS WITH TRIE IMPLEMENTATION\n");
-
-        ConcatenatedWordsWithTrie concatenationTrie = new ConcatenatedWordsWithTrie();
-        concatenationTrie.readFileToTrie("words.txt");
-        Metrics.start();
-        concatenationTrie.findConcatenatedWords();
-        Metrics.stop();
-        Metrics.getAllMetrics();
-        getConcatenatedWordsInfo(concatenationTrie);
-        concatenationTrie.free();
-        return true;
-    }
 
     /**
      * Reading file, searching for concatenated words, measuring metrics
